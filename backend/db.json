@@ -37,22 +37,26 @@
     {
       "id": "01",
       "email": "christian@gmail.com",
-      "senha": "1304"
+      "senha": "1304",
+      "carrinho": []
     },
     {
       "email": "Renanminer@gmail.com",
       "senha": "Renan0101",
-      "id": "dTGCJuNDN08"
+      "id": "dTGCJuNDN08",
+      "carrinho": []
     },
     {
       "email": "Pedrinhogameplay@gmail.com",
       "senha": "1604",
-      "id": "E5TfYShgp7s"
+      "id": "E5TfYShgp7s",
+      "carrinho": []
     },
     {
       "email": "rodriguin@gmail.com",
       "senha": "1234",
-      "id": "VR8L-P0IhEY"
+      "id": "VR8L-P0IhEY",
+      "carrinho": []
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

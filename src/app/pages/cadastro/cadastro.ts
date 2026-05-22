@@ -27,7 +27,8 @@ export class Cadastro implements OnInit {
 
     pessoa: Pessoa = {} as Pessoa;
 
-  submeter(){    
+  submeter(){
+    this.pessoa.carrinho = this.pessoa.carrinho || [];    
     this.service.incluir(this.pessoa).subscribe(()=>{
       this.router.navigate(['/login']);
       alert("cadastro efetuado!")

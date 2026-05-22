@@ -1,5 +1,5 @@
 export interface Produto{
-    id?: number;
+    id?: string;
     nome: string;
     categoria: string;
     preco: number;
@@ -7,8 +7,20 @@ export interface Produto{
     descricao: string;
 }
 
+export interface itemCarrinho{
+    produtoID: string,
+    nome: string,
+    categoria: string,
+    preco: number,
+    quantidade: number
+}
+
 export interface Pessoa{
     id?: string;
     email: string,
-    senha: string    
+    senha: string,
+    carrinho: itemCarrinho[]   
 }
+
+
+
