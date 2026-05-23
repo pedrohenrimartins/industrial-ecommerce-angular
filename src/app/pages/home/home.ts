@@ -36,6 +36,8 @@ export class Home implements OnInit {
       this.idsNoCarrinho.push(produto.produtoID!);
     });
 
+    this.cdr.detectChanges();
+
   })
 }
 
@@ -54,7 +56,7 @@ export class Home implements OnInit {
     this.idsNoCarrinho.push(produto.id!);
 
     alert('Produto adicionado ao carrinho!');
-
+      this.cdr.detectChanges();
   });
 
 

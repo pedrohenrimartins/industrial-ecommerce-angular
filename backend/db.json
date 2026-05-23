@@ -62,14 +62,6 @@
           "preco": 500,
           "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_756695-MLA99452591170_112025-F.webp",
           "quantidade": 1
-        },
-        {
-          "produtoID": "wOm-kBHGTYM",
-          "nome": "Testando novamente",
-          "categoria": "Pintura",
-          "preco": 10,
-          "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_758639-MLA100001707479_112025-F.webp",
-          "quantidade": 1
         }
       ]
     },
