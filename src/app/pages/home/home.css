@@ -315,7 +315,7 @@
     font-weight: 700;
 }
 
-.product-card button{
+.botao-carrinho{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,6 +331,11 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.botao-carrinho:disabled{
+    background-color: #111D23;
+    color: white;
 }
 
 .compromisso{

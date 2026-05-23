@@ -43,7 +43,7 @@ export class CarrinhoService {
         if(item){
           item.quantidade += quantidade;
           if(item.quantidade <=0){
-            this.removerCarrinho(produtoID);
+            return this.removerCarrinho(produtoID);
           }
         }
         const usuario = this.loginService.getUsuario();

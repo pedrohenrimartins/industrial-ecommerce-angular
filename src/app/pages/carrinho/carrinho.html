@@ -1,113 +1,83 @@
 <app-header></app-header>
 
 <main>
-        <div class="page-title">Meu carrinho</div>
-        <div class="content">
-            <section>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Quantidade</th>
-                            <th>Total</th>
-                            <th>-</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="product">
-                                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp" alt="Serra Circular">
-                                    <div class="info">
-                                        <div class="name">Serra Circular</div>
-                                        <div class="category">Ferramentas de Corte</div>
-                                    </div>
+    <div class="page-title">Meu carrinho</div>
+    <div class="content">
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (itemCarrinho of itens; track itemCarrinho.produtoID) {
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp"
+                                    alt="Serra Circular">
+                                <div class="info">
+                                    <div class="name">{{itemCarrinho.nome}}</div>
+                                    <div class="category">{{itemCarrinho.categoria}}</div>
                                 </div>
-                            </td>
-                            <td>R$ 200,00</td>
-                            <td>
-                                <div class="qtd">
-                                    <button><i class="fi fi-ts-minus"></i></button>
-                                    <span>2</span>
-                                    <button><i class="fi fi-ts-plus"></i></button>
-                                </div>
-                            </td>
-                            <td>R$ 400,00</td>
-                            <td>
-                                <button class="remove"><i class="fi fi-br-cross"></i></button>
-                            </td>
-                        </tr>
+                            </div>
+                        </td>
+                        <td>R$ {{itemCarrinho.preco}}</td>
+                        <td>
+                            <div class="qtd">
+                                <button (click) = "alterar(itemCarrinho.produtoID, -1)"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2"
+                                        fill="none">
+                                        <path d="M0 1.16667V0H8.16667V1.16667H0Z" fill="#111D23" />
+                                    </svg></button>
+                                <span>{{itemCarrinho.quantidade}}</span>
+                                <button (click) = "alterar(itemCarrinho.produtoID, 1)"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9"
+                                        fill="none">
+                                        <path
+                                            d="M3.5 4.66667H0V3.5H3.5V0H4.66667V3.5H8.16667V4.66667H4.66667V8.16667H3.5V4.66667Z"
+                                            fill="#111D23" />
+                                    </svg></button>
+                            </div>
+                        </td>
+                        <td>Total</td>
+                        <td>
+                            <button class="remove" (click)="remover(itemCarrinho.produtoID)"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18"
+                                    fill="none">
+                                    <path
+                                        d="M3 18C2.45 18 1.97917 17.8042 1.5875 17.4125C1.19583 17.0208 1 16.55 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8042 17.0208 14.4125 17.4125C14.0208 17.8042 13.55 18 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14ZM3 3V16V3Z"
+                                        fill="#757872" />
+                                </svg></button>
+                        </td>
+                    </tr>
+                    }
 
-                        <tr>
-                            <td>
-                                <div class="product">
-                                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp" alt="Furadeira de Impacto">
-                                    <div class="info">
-                                        <div class="name">Furadeira de Impacto</div>
-                                        <div class="category">Ferramentas de Perfuração</div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>R$ 150,00</td>
-                            <td>
-                                <div class="qtd">
-                                    <button><i class="fi fi-ts-minus"></i></button>
-                                    <span>2</span>
-                                    <button><i class="fi fi-ts-plus"></i></button>
-                                </div>
-                            </td>
-                            <td>R$ 300,00</td>
-                            <td>
-                                <button class="remove"><i class="fi fi-br-cross"></i></button>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <div class="product">
-                                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp" alt="Lixadeira Orbital">
-                                    <div class="info">
-                                        <div class="name">Lixadeira Orbital</div>
-                                        <div class="category">Ferramentas de Acabamento</div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>R$ 100,00</td>
-                            <td>
-                                <div class="qtd">
-                                    <button><i class="fi fi-ts-minus"></i></button>
-                                    <span>2</span>
-                                    <button><i class="fi fi-ts-plus"></i></button>
-                                </div>
-                            </td>
-                            <td>R$ 200,00</td>
-                            <td>
-                                <button class="remove"><i class="fi fi-br-cross"></i></button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <aside>
-                <div class="box">
-                    <header>Resumo do pedido</header>
-                    <div class="info">
-                        <div><span>Sub-total</span><span>R$ 400,00</span></div>
-                        <div><span>Frete</span><span>Gratis</span></div>
-                        <div><button>Adicionar cupom <i class="fi fi-rr-arrow-small-right"></i></button></div>
-
-                    </div>
-                    <footer>
-                        <span>Total</span>
-                        <span>R$ 400,00</span>
-                    </footer>
+                </tbody>
+            </table>
+        </section>
+        <aside>
+            <div class="box">
+                <header>Resumo do pedido</header>
+                <div class="info">
+                    <div><span>Sub-total</span><span>R$ 400,00</span></div>
+                    <div><span>Frete</span><span>Gratis</span></div>
+                    <div><button>Adicionar cupom <i class="fi fi-rr-arrow-small-right"></i></button></div>
 
                 </div>
-                <button>Finalizar compra</button>
-            </aside>
-        </div>
+                <footer>
+                    <span>Total</span>
+                    <span>R$ 400,00</span>
+                </footer>
 
-    </main>
+            </div>
+            <button>Finalizar compra</button>
+        </aside>
+    </div>
+
+</main>
 
 <app-footer></app-footer>

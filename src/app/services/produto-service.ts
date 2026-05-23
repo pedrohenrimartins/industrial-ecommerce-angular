@@ -23,7 +23,7 @@ export class ProdutoService {
       const url = `${this.API}/${produto.id}`
       return this.http.put<Produto>(url, produto)
     }
-    excluir(id: number): Observable<Produto>{
+    excluir(id: string): Observable<Produto>{
       return this.http.delete<Produto>(this.API + `/${id}`);
 }
 }

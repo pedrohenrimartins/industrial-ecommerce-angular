@@ -30,7 +30,7 @@ export class Inventario implements OnInit {
           })
     }
 
-    excluir(id:number){
+    excluir(id:string){
         if(id){
           this.service.excluir(id).subscribe(() => {
           window.location.reload()

@@ -23,14 +23,6 @@
       "estoque": 400,
       "id": "lV2DdOr2U6Y",
       "descricao": "testando mais uma vez"
-    },
-    {
-      "nome": "Teste para completar a home",
-      "categoria": "Ferramentas",
-      "preco": 30,
-      "id": "KtfZcXReqqc",
-      "estoque": 20,
-      "descricao": "produto apenas para teste"
     }
   ],
   "pessoas": [
@@ -50,7 +42,15 @@
       "email": "Pedrinhogameplay@gmail.com",
       "senha": "1604",
       "id": "E5TfYShgp7s",
-      "carrinho": []
+      "carrinho": [
+        {
+          "produtoID": "g-HVZkRCn9I",
+          "nome": "Teste De adiçao",
+          "categoria": "Ferramenta",
+          "preco": 500,
+          "quantidade": 1
+        }
+      ]
     },
     {
       "email": "rodriguin@gmail.com",
