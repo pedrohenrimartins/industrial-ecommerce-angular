@@ -16,7 +16,7 @@ import { CarrinhoService } from '../../services/carrinho-service';
 })
 export class Home implements OnInit {
   listaProdutos: Produto[] = [];
-  adicionandoID: string | null | undefined = null;
+  idsNoCarrinho: string[] = [];
 
   constructor(private http: HttpClient, private router: Router, private produtoService: ProdutoService, private cdr: ChangeDetectorRef, private loginService: LoginService,
     private carrinhoService: CarrinhoService
@@ -29,19 +29,33 @@ export class Home implements OnInit {
       this.listaProdutos = produtos;
       this.cdr.detectChanges();
     })
-  }
+
+    this.carrinhoService.carregarCarrinho().subscribe((carrinho) => {
+
+    carrinho.forEach(produto => {
+      this.idsNoCarrinho.push(produto.produtoID!);
+    });
+
+  })
+}
 
   adicionarAoCarrinho(produto: Produto) {
 
     if (!this.loginService.estalogado()) {
       alert('Você precisar entrar para fazer está ação')
       this.router.navigate(['/login']);
-    } else {
-      alert('Produto Adicionado ao carrinho!')
-      this.adicionandoID = produto.id;
+    } 
 
-      this.carrinhoService.adicionarCarrinho(produto).subscribe(() => this.adicionandoID = null)
+    if (this.idsNoCarrinho.includes(produto.id!)) {
+    alert('Esse produto já está no carrinho!');
+    return;
     }
+     this.carrinhoService.adicionarCarrinho(produto).subscribe(() => {
+    this.idsNoCarrinho.push(produto.id!);
+
+    alert('Produto adicionado ao carrinho!');
+
+  });
 
 
 
