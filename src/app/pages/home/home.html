@@ -118,7 +118,7 @@
             <div class="cards-ofertas-container">
                 @for (produto of listaProdutos; track produto.id) {
                 <div class="product-card">
-                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp"/>
+                    <img [src]="produto.urlImg"/>
                     
                     <p>{{produto.nome}}</p>
                     <p>R${{produto.preco}}</p>

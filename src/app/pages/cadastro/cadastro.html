@@ -24,11 +24,11 @@
 
 
                     <p class="txtInput">E-mail:
-                        <input type="text" name="username" placeholder="nome@gmail.com" [(ngModel)]="pessoa.email">
+                        <input type="email" name="username" placeholder="nome@gmail.com" [(ngModel)]="pessoa.email">
                     </p>
                     <br>
                     <p class="txtInput">Confirme o E-mail:
-                        <input type="text" name="username" placeholder="nome@gmail.com">
+                        <input type="text" name="username" placeholder="nome@gmail.com" [(ngModel)]= "confEmail">
                     </p>
                     <br>
                     <p class="txtInput">Senha:
@@ -36,11 +36,14 @@
                     </p>
                     <br>
                     <p class="txtInput">Confirme a Senha:
-                        <input type="password" name="password" placeholder="••••••••">
+                        <input type="password" name="password" placeholder="••••••••" [(ngModel)]= "confSenha">
                     </p>
-                    <p class="span">Já tem cadastro? acesse: <span>Login</span></p>
+                    <button class="btn-login" [routerLink]="['/login']">
+                        <p class="span">Já tem cadastro? acesse: <span>Login</span></p>
+                    </button>
+                    
 
-                    <button (click) = "submeter()">Cadastre-se</button>
+                    <button class="btn-cadastrar" (click) = "submeter()">Cadastre-se</button>
 
 
 

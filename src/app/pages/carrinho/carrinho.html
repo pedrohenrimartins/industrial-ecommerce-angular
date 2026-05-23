@@ -19,8 +19,8 @@
                     <tr>
                         <td>
                             <div class="product">
-                                <img src="https://http2.mlstatic.com/D_Q_NP_2X_738302-MLA99962929373_112025-E.webp"
-                                    alt="Serra Circular">
+                                <img [src]="itemCarrinho.urlImg">
+                                    
                                 <div class="info">
                                     <div class="name">{{itemCarrinho.nome}}</div>
                                     <div class="category">{{itemCarrinho.categoria}}</div>
@@ -43,7 +43,7 @@
                                     </svg></button>
                             </div>
                         </td>
-                        <td>Total</td>
+                        <td>R${{itemCarrinho.preco * itemCarrinho.quantidade}}</td>
                         <td>
                             <button class="remove" (click)="remover(itemCarrinho.produtoID)"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18"
@@ -63,14 +63,14 @@
             <div class="box">
                 <header>Resumo do pedido</header>
                 <div class="info">
-                    <div><span>Sub-total</span><span>R$ 400,00</span></div>
+                    <div><span>Sub-total</span><span>R$ {{totalCarrinho()}}</span></div>
                     <div><span>Frete</span><span>Gratis</span></div>
                     <div><button>Adicionar cupom <i class="fi fi-rr-arrow-small-right"></i></button></div>
 
                 </div>
                 <footer>
                     <span>Total</span>
-                    <span>R$ 400,00</span>
+                    <span>R$ {{totalCarrinho()}}</span>
                 </footer>
 
             </div>

@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { Header } from '../../shared/header/header';
 import { Footer } from '../../shared/footer/footer';
 import { LoginService } from '../../services/login-service';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
-  imports: [Header, Footer, FormsModule],
+  imports: [Header, Footer, FormsModule, RouterLink],
   templateUrl: './login.html',
   styleUrl: './login.css',
 })

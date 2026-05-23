@@ -16,7 +16,7 @@
                         <h3>Especificações</h3>
 
                         <p>Nome do Produto</p>
-                        <input type="text" placeholder="Digite o nome do produto" [(ngModel)]="produto.nome" />
+                        <input type="text" placeholder="Digite o nome do produto" [(ngModel)]="produto.nome" maxlength="50" />
 
                         <div class="inputs-section">
                             <div>
@@ -30,8 +30,8 @@
                             </div>
 
                             <div>
-                                <p>Identificador</p>
-                                <input type="text" placeholder="Ex: PRD-009" [(ngModel)]="produto.id"/>
+                                <p>Url da Imagem</p>
+                                <input type="text" placeholder="Ex: ../images/imagemProduto" [(ngModel)]="produto.urlImg"/>
                             </div>
 
                             <div>
@@ -43,7 +43,7 @@
 
                     <div class="desc-block">
                         <h3>Descrição técnica</h3>
-                        <input type="text" placeholder="Descreva o produto" [(ngModel)]="produto.descricao"/>
+                        <input type="text" placeholder="Descreva o produto" [(ngModel)]="produto.descricao" maxlength="400"/>
                     </div>
                 </div>
 

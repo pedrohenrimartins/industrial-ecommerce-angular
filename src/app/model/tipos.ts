@@ -5,6 +5,7 @@ export interface Produto{
     preco: number;
     estoque: number;
     descricao: string;
+    urlImg: string;
 }
 
 export interface itemCarrinho{
@@ -12,7 +13,8 @@ export interface itemCarrinho{
     nome: string,
     categoria: string,
     preco: number,
-    quantidade: number
+    quantidade: number,
+    urlImg: string
 }
 
 export interface Pessoa{

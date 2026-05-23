@@ -6,7 +6,8 @@
       "preco": 500,
       "id": "g-HVZkRCn9I",
       "estoque": 50,
-      "descricao": "testando a adiçao de um produto "
+      "descricao": "testando a adiçao de um produto ",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_756695-MLA99452591170_112025-F.webp"
     },
     {
       "nome": "Testando novamente",
@@ -14,7 +15,8 @@
       "preco": 10,
       "estoque": 40,
       "descricao": "descrição",
-      "id": "wOm-kBHGTYM"
+      "id": "wOm-kBHGTYM",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_758639-MLA100001707479_112025-F.webp"
     },
     {
       "nome": "testando após alterações 1",
@@ -22,7 +24,17 @@
       "preco": 20,
       "estoque": 400,
       "id": "lV2DdOr2U6Y",
-      "descricao": "testando mais uma vez"
+      "descricao": "testando mais uma vez",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_693950-MLA99995911057_112025-F.webp"
+    },
+    {
+      "nome": "Ferramenta teste da imagem",
+      "categoria": "Ferramentas",
+      "preco": 100,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_981811-MLA99934566643_112025-F.webp",
+      "estoque": 30,
+      "descricao": "esse produto e apenas um teste",
+      "id": "iDG1QAbQI-w"
     }
   ],
   "pessoas": [
@@ -42,21 +54,31 @@
       "email": "Pedrinhogameplay@gmail.com",
       "senha": "1604",
       "id": "E5TfYShgp7s",
-      "carrinho": [
-        {
-          "produtoID": "g-HVZkRCn9I",
-          "nome": "Teste De adiçao",
-          "categoria": "Ferramenta",
-          "preco": 500,
-          "quantidade": 1
-        }
-      ]
+      "carrinho": []
     },
     {
       "email": "rodriguin@gmail.com",
       "senha": "1234",
       "id": "VR8L-P0IhEY",
       "carrinho": []
+    },
+    {
+      "email": "jorge@gmail.com",
+      "senha": "1234",
+      "carrinho": [],
+      "id": "kPvfOQS5-RI"
+    },
+    {
+      "email": "doido@gmail.com",
+      "senha": "123",
+      "carrinho": [],
+      "id": "OtCgEBRmdi4"
+    },
+    {
+      "email": "mineiro@gmail.com",
+      "senha": "123",
+      "carrinho": [],
+      "id": "g4OfIsSPWvw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -40,6 +40,13 @@ export class Carrinho implements OnInit {
     this.carrinhoService.removerCarrinho(produtoID).subscribe(() => this.recarregar())
   }
 
-  
+  totalCarrinho() : number{
+    let total = 0;
+    this.itens.forEach((item) => {
+      total += item.preco * item.quantidade;
+    })
+
+    return total;
+  }
 
 }

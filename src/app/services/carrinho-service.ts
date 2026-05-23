@@ -27,6 +27,7 @@ export class CarrinhoService {
           nome: produto.nome,
           categoria: produto.categoria,
           preco: produto.preco,
+          urlImg: produto.urlImg,
           quantidade: 1
         });
 

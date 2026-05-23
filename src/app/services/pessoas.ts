@@ -10,9 +10,9 @@ export class Pessoas {
   private API:string = "http://127.0.0.1:3000/pessoas"
     constructor(private http: HttpClient){  }
     
-    listar(): Observable<Pessoas[]>{
+    listar(): Observable<Pessoa[]>{
 
-      return this.http.get<Pessoas[]>(this.API);
+      return this.http.get<Pessoa[]>(this.API);
 
     }
 

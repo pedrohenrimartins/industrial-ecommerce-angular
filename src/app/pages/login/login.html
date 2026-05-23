@@ -37,7 +37,15 @@
                     <button class="input-submeter" [disabled]="botaoDesabilitado" (click)="onBotaoClicado()">
                         Entrar
                     </button>
-                    <p class="span">não tem cadastro ainda? acesse: <span>cadastre-se</span></p>               
+
+                    <button class="btn-cadastro" [routerLink]="['/cadastro']">
+                        <p class="span">não tem cadastro ainda? acesse: <span>cadastre-se</span></p> 
+                    </button>
+
+                    <button class="btn-cadastro" [routerLink]="['/login-admin']">
+                        <p class="span">é um administrador? acesse: <span>painel administrativo</span></p> 
+                    </button>
+                                  
                 </div>              
 
 

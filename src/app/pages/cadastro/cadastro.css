@@ -109,7 +109,7 @@ input {
 
 }
 
-button {
+.btn-cadastrar {
     width: 448px;
     height: 56px;
 
@@ -126,6 +126,12 @@ button {
     font-style: normal;
     font-weight: 700;
 }
+
+.btn-login{
+    border: none;
+}
+
+
 
 
 span {

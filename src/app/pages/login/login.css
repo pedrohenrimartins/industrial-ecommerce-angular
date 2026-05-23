@@ -108,7 +108,7 @@ input {
 
 }
 
-button {
+.input-submeter {
     width: 448px;
     height: 56px;
 
@@ -126,8 +126,12 @@ button {
     font-weight: 700;
 }
 
-button:disabled{
+.input-submeter:disabled{
     background-color: #f22828;
+}
+
+.btn-cadastro{
+    border: none;
 }
 
 span {
