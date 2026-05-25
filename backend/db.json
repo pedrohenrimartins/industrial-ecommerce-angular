@@ -1,94 +1,152 @@
 {
   "produtos": [
     {
-      "nome": "Teste De adiçao",
-      "categoria": "Ferramenta",
-      "preco": 500,
-      "id": "g-HVZkRCn9I",
-      "estoque": 50,
-      "descricao": "testando a adiçao de um produto ",
-      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_756695-MLA99452591170_112025-F.webp"
-    },
-    {
-      "nome": "Testando novamente",
-      "categoria": "Pintura",
-      "preco": 10,
-      "estoque": 40,
-      "descricao": "descrição",
-      "id": "wOm-kBHGTYM",
-      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_758639-MLA100001707479_112025-F.webp"
-    },
-    {
-      "nome": "testando após alterações 1",
-      "categoria": "equipamentos",
-      "preco": 20,
-      "estoque": 400,
-      "id": "lV2DdOr2U6Y",
-      "descricao": "testando mais uma vez",
-      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_693950-MLA99995911057_112025-F.webp"
-    },
-    {
-      "nome": "Ferramenta teste da imagem",
-      "categoria": "Ferramentas",
-      "preco": 100,
+      "nome": "Furadeira De Impacto Einhell Th-id 600 E",
+      "categoria": "ferramentas",
+      "preco": 92.9,
       "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_981811-MLA99934566643_112025-F.webp",
-      "estoque": 30,
-      "descricao": "esse produto e apenas um teste",
-      "id": "iDG1QAbQI-w"
+      "estoque": 100,
+      "descricao": "Furadeira de Impacto Einhell TH-ID 600 E é a ferramenta ideal para quem busca potência, versatilidade e precisão nos trabalhos de perfuração.  Com 600W de potência e controle eletrônico de velocidade, ela garante desempenho confiável em madeira, metal e alvenaria (exceto concreto), e também pode ser usada para pisos, azulejos e porcelanatos, sendo perfeita para uso profissional.",
+      "id": "hZvXXH6ZP-w"
+    },
+    {
+      "nome": "Esmerilhadeira Angular 4.1/2 850 Watts M9510b Maki",
+      "categoria": "ferramentas",
+      "preco": 280,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_786954-MLA99508488746_112025-F.webp",
+      "estoque": 500,
+      "descricao": "A Esmerilhadeira angular 4.1/2\" 850 watts M9510B da Makita é ideal para cortes e desbastes em metais. Com design compacto e leve, facilita o manuseio e o transporte.\nConta com motor de alta potência de 850 watts e possui dupla isolação, sendo indicada para trabalhos em serralherias, setores de construção e manutenções em geral.\n",
+      "id": "uOVUsb_ErpA"
+    },
+    {
+      "nome": "Serra Makita 4100nh3zx Mármore com 2 Discos Diámet",
+      "categoria": "ferramentas",
+      "preco": 332.9,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_707426-MLU72340464209_102023-F.webp",
+      "estoque": 500,
+      "descricao": "A Serra mármore 4.3/8\" 1.300 watts 4100NH3ZX2 da Makita é uma ferramenta elétrica adequada para profissionais que buscam acabamento preciso no corte. Ideal para trabalhos em marmoraria e construção civil, conta com motor potente que possibilita realizar trabalhos intensos mantendo a qualidade do corte. Com 1.300 watts de potência, permite o uso de disco diamantado de até 4.3/8\" para corte de mármores, granitos e pedras. Acompanha uma chave, uma chave allen e dois discos. Estrutura compacta, leve e portátil.",
+      "id": "eburwbUNOrc"
+    },
+    {
+      "nome": "Soprador Térmico Vonder 2000w Stv200 3 Estágios + ",
+      "categoria": "ferramentas",
+      "preco": 161.1,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_680815-MLA99449533724_112025-F.webp",
+      "estoque": 100,
+      "descricao": "Indicado para moldar materiais plásticos, artesanatos e remover tintas. Produz um fluxo de ar de alta temperatura, sendo indicado para profissionais como: encanadores, marceneiros, carpinteiros e pintores, além de ser muito útil em fábricas de móveis e em atividades relacionadas à moldagem de materiais plásticos, moldagem e instalação de canos de PVC, remoção ou secagem de pinturas, aplicação de películas, entre outras.\n",
+      "id": "MFiFng7HHg0"
+    },
+    {
+      "nome": "Kit 10 Disco Lixa Tipo Flap 115mm Para Lixadeira, ",
+      "categoria": "equipamentos",
+      "preco": 34.27,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_880951-MLA99841983329_112025-F.webp",
+      "estoque": 50,
+      "descricao": "O Kit 10 Disco Lixa Tipo Flap 115mm é indicado para acabamentos em metais, madeiras entre outros. Possui menor vibração e melhor aproveitamento, permitindo desbaste e acabamento na mesma operação. É ideal para lixar e desbastar.",
+      "id": "LThrBEHZLKE"
+    },
+    {
+      "nome": "Serra Acabamento Para Mdf 250x80z 35° Fine Cut Fepam",
+      "categoria": "equipamentos",
+      "preco": 309.5,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_988822-MLB91407184886_092025-F.webp",
+      "estoque": 50,
+      "descricao": "Apresente a eficiência do Serra Acabamento Para MDF 250x80z 35° Fine Cut da marca Fepam. Este disco de corte, com um diâmetro de 25 cm e 80 dentes, é ideal para o acabamento em MDF e outras chapas de madeira, proporcionando cortes precisos e de alta qualidade. Com uma espessura de 2,8 mm, é projetado para uso profissional, garantindo durabilidade e desempenho superior em cada aplicação",
+      "id": "fJA63jWpd7U"
+    },
+    {
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_735148-MLU76557991502_052024-F.webp",
+      "nome": "Jogo De Brocas Aço Rápido 19 Peças (1mm À 10mm) Onsite",
+      "categoria": "equipamentos",
+      "preco": 64.9,
+      "estoque": 500,
+      "descricao": "Corpo em aço rápido (HSS). Ângulo de afiação da ponta de 118º. As ferramentas são submetidas a testes de aplicação prática para garantir sua resistência mecânica em uso intenso. Utilizada em trabalhos de perfuração em aço. As ferramentas são produzidas e testadas conforme normas específicas.",
+      "id": "DikYT1ZJF0U"
+    },
+    {
+      "nome": "Máscara Solda 4k Auto Escurecimento Mak Solar + 4 Esquadros Cor Preto",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_644778-MLA99502737228_112025-F.webp",
+      "categoria": "equipamentos",
+      "preco": 148,
+      "estoque": 100,
+      "descricao": "A Máscara de Solda MSEA-701 4K SUPER TORK foi projetada para modernizar e facilitar os trabalhos de solda.\nMáscara ideal para soldas MMA eletrodo revestido, TIG, MIG-MAG e CORTE PLASMA.",
+      "id": "20JAGuuv7AM"
+    },
+    {
+      "categoria": "jardinagem",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_953185-MLA96112411269_102025-F.webp",
+      "nome": "Tesoura Para Poda Tramontina 21cm - 78304/511 Cor Laranja",
+      "preco": 49.45,
+      "estoque": 100,
+      "descricao": "A tesoura de poda profissional Tramontina com lâmina metálica e cabo revestido em plástico é projetada para levar profissionalismo nas atividades de poda. Com design diferenciado que garante segurança e conforto, ela é produzida com lâmina metálica e cabo revestido em plástico, dando mais comodidade no manuseio.\n",
+      "id": "niNrtkkpyZc"
+    },
+    {
+      "categoria": "jardinagem",
+      "nome": "Motosserra Gasolina Toyama TCS58H-18SNB 54.4cc Sabre 18 Pol Antivibração",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_612913-MLA99449527450_112025-F.webp",
+      "preco": 699,
+      "estoque": 10,
+      "descricao": "Um jardim bem cuidado é uma alegria para os olhos!\nEsta motosserra da Toyama facilitará o trabalho permitindo que você aproveite seu hobby. É adequada para corte profissional de todos os tipos de madeiras, para podar, cortar árvores e fazer inúmeros trabalhos de jardinagem. Agora você poderá cortar a vegetação com pouco esforço e em pouco tempo.",
+      "id": "CI25sImK2_Q"
+    },
+    {
+      "nome": "Aparador de Grama Garthen Elétrico 1500W GAM-1500BP Fio Nylon Verde 110V",
+      "categoria": "jardinagem",
+      "preco": 228.87,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_797590-MLA99461513762_112025-F.webp",
+      "estoque": 100,
+      "descricao": "Não há nada como um jardim arrumado. Se você deseja conhecer os detalhes ou se possui um pequeno espaço verde, o aparador de grama Garthen o ajudará nas áreas onde um aparador de grama não pode alcançar. Isso permitirá que você corte as ervas daninhas perto do chão e passe por locais de difícil acesso, como cantos e bordas.",
+      "id": "2C2O9PHU6-I"
+    },
+    {
+      "nome": "Kit Para Jardinagem 5 Peças Tramontina + Brinde Luva",
+      "categoria": "jardinagem",
+      "preco": 147.9,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_897770-MLB94608422700_102025-F.webp",
+      "estoque": 100,
+      "descricao": "Eleve a beleza do seu espaço verde com o Conjunto Jardinagem para Horta Tramontina, um essencial para os amantes do paisagismo e da floricultura. Com lâminas em aço temperado, este conjunto garante cortes precisos e eficientes, tornando cada tarefa de jardinagem mais fácil e prazerosa. O material dos cabos em madeira oferece uma pegada confortável, permitindo que você trabalhe por longas horas sem desconforto.",
+      "id": "oTXekT7XJo4"
+    },
+    {
+      "nome": "Pistola De Pintura E Pulverizadora Elétrica Portátil Hvlp 1.250l C/5 Bicos E Acessórios 600w Tpp150 ",
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_640859-MLA109322050379_032026-F.webp",
+      "categoria": "pintura",
+      "preco": 193.99,
+      "estoque": 1000,
+      "descricao": "A Pistola de Pintura HVLP TPP150 da The Black Tools foi desenvolvida especialmente para projetos caseiros, ideal para manutenção de paredes, móveis, cercados e muito mais. Conta com reservatório de 1,25 litros, garantindo maior autonomia sem necessidade de recarga frequente. Além disso, possui 3 ajustes de spray (horizontal, vertical e circular) e regulagem de fluxo de tinta para diferentes aplicações com praticidade e precisão.",
+      "id": "PcoP5mv5B08"
+    },
+    {
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_703905-CBT83827335440_042025-F.webp",
+      "categoria": "pintura",
+      "nome": "Conjunto De Ferramentas Queenly-8 Peças Para Pintura ",
+      "preco": 73.98,
+      "estoque": 50,
+      "descricao": "Boa válvula para economizar dinheiro O conjunto de ferramentas de pintura de borracha contém 8 peças de ferramentas e rolos de pintura de grãos de madeira, incluindo um tamanho de MS3 (5,9 x 2,4 polegadas e 2,9 x 2,4 polegadas), MS6 (5 polegadas x 1,5 polegadas e 3,4 polegadas x 1,18 polegadas), rolo MS17 (3,8 polegadas x 2,4 polegadas x 3,5 polegadas e 1,9 polegadas x 7 polegadas x 11,8 polegadas). O belo e transparente padrão de grãos de madeira cria o efeito de uma decoração vencedora de paredes ou móveis, que é quase como madeira maciça real.",
+      "id": "Lmmh8j8kF6g"
+    },
+    {
+      "nome": "Bandeja Para Pintura 1000ml Grande Preta - Castor 075 Plastica Acessorio Rolo Ferramenta Tinta",
+      "categoria": "pintura",
+      "preco": 19.68,
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_826353-MLB106122582484_022026-F.webp",
+      "estoque": 100,
+      "descricao": "A Bandeja de Pintura Castor é prática, resistente e indispensável para quem busca mais eficiência e economia em seus trabalhos. Com capacidade de 1000 ml, ela é compatível com rolos de até 23 cm de largura, oferecendo maior agilidade no processo de pintura, seja em pequenos reparos ou em grandes projetos.",
+      "id": "Ypwb2QzHHO4"
+    },
+    {
+      "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_807241-MLA99565665626_122025-F.webp",
+      "nome": "Latex Acrílica Tinta Coral Anti Mofo Branco 18L Coralar Branco Fosco",
+      "categoria": "pintura",
+      "preco": 233.9,
+      "estoque": 1000,
+      "descricao": "A Tinta Acrílica Coralar é fácil de aplicar e rápida de secar, oferecendo ótima resistência e cobertura. É indicada exclusivamente para ambientes internos com superfícies de alvenaria, cerâmica não vitrificada e blocos de cimento.\nA Coral Coralar agora está com uma nova embalagem e nova fórmula. Com maior rendimento e cobertura em relação à fórmula anterior é de fácil aplicação, rápida secagem, mínimo respingamento e oferece bom acabamento e ação antimofo.",
+      "id": "d8kLV-dimO0"
     }
   ],
   "pessoas": [
-    {
-      "id": "01",
-      "email": "christian@gmail.com",
-      "senha": "1304",
-      "carrinho": []
-    },
-    {
-      "email": "Renanminer@gmail.com",
-      "senha": "Renan0101",
-      "id": "dTGCJuNDN08",
-      "carrinho": []
-    },
-    {
-      "email": "Pedrinhogameplay@gmail.com",
-      "senha": "1604",
-      "id": "E5TfYShgp7s",
-      "carrinho": [
-        {
-          "produtoID": "g-HVZkRCn9I",
-          "nome": "Teste De adiçao",
-          "categoria": "Ferramenta",
-          "preco": 500,
-          "urlImg": "https://http2.mlstatic.com/D_NQ_NP_2X_756695-MLA99452591170_112025-F.webp",
-          "quantidade": 1
-        }
-      ]
-    },
-    {
-      "email": "rodriguin@gmail.com",
-      "senha": "1234",
-      "id": "VR8L-P0IhEY",
-      "carrinho": []
-    },
-    {
-      "email": "jorge@gmail.com",
-      "senha": "1234",
-      "carrinho": [],
-      "id": "kPvfOQS5-RI"
-    },
-    {
-      "email": "doido@gmail.com",
-      "senha": "123",
-      "carrinho": [],
-      "id": "OtCgEBRmdi4"
-    },
-    {
-      "email": "mineiro@gmail.com",
-      "senha": "123",
-      "carrinho": [],
-      "id": "g4OfIsSPWvw"
-    }
+    
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

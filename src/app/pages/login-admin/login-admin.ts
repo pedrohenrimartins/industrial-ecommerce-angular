@@ -12,7 +12,7 @@ export class LoginAdmin {
   login = ""
   senha = ""
 
-  autenticarLogin = "admin@industrial.com";
+  autenticarLogin = "admin";
   autenticarSenha = "1234"
 
   constructor( private router: Router){}

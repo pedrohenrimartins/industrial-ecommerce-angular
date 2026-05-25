@@ -160,6 +160,7 @@ section{
     align-self: stretch;
     background: #353534;
     border: 0px none;
+    color: white;
 }
 
 .inputs-section{
@@ -181,6 +182,18 @@ section{
     align-items: flex-start;
     background: #353534;
     border: 0px none;
+    color: white;
+}
+
+.inputs-section select{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    background: #353534;
+    border: 0px none;
+    color: white;
+    outline: none;
 }
 
 .inputs-section p{
@@ -201,30 +214,34 @@ section{
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    
 }
 
 .desc-block h3{
     color: #DBC2B0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 15px; /* 150% */
+    line-height: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    
 }
 
-.desc-block input{
-    display: flex;
-    height: 100%;
+.desc-block textarea{
     width: 100%;
-    justify-content: center;
-    align-items: flex-start;
-    align-self: stretch;
+    min-height: 180px;
+    padding: 20px;
+
     background-color: #353534;
-    border: 0px none;
+    border: none;
+    color: white;
+
+    resize: none;
+    outline: none;
+
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    box-sizing: border-box;
 }
 
 .sidebar button{

@@ -138,7 +138,7 @@
             <img [src]="produto.urlImg" />
 
             <p>{{produto.nome}}</p>
-            <p>R${{produto.preco}}</p>
+            <p>R$ {{ produto.preco.toFixed(2) }}</p>
             <button [disabled]="idsNoCarrinho.includes(produto.id!)" class="botao-carrinho"
                 (click)="adicionarAoCarrinho(produto)">
                 @if(!idsNoCarrinho.includes(produto.id!)) {

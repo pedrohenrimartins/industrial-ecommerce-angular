@@ -7,7 +7,8 @@
         <section>
             <div class="editorial-header">
                 <h1>ADICIONAR PRODUTO</h1>
-                <p>Adicione novos produtos no estoque. Garantir todas as especificações técnicas, metadados categóricos e métricas de avaliação são precisos para relatórios de nível industrial.</p>
+                <p>Adicione novos produtos no estoque. Garantir todas as especificações técnicas, metadados categóricos
+                    e métricas de avaliação são precisos para relatórios de nível industrial.</p>
             </div>
 
             <div class="menu">
@@ -16,49 +17,57 @@
                         <h3>Especificações</h3>
 
                         <p>Nome do Produto</p>
-                        <input type="text" placeholder="Digite o nome do produto" [(ngModel)]="produto.nome" maxlength="50" />
+                        <input type="text" placeholder="Digite o nome do produto" [(ngModel)]="produto.nome"
+                            maxlength="100">
 
                         <div class="inputs-section">
                             <div>
                                 <p>Categoria</p>
-                                <input type="text" placeholder="Digite a categoria" [(ngModel)]="produto.categoria" />
+
+                                <select [(ngModel)]="produto.categoria">
+                                    <option value="" disabled selected>Selecione uma categoria</option>
+                                    <option value="ferramentas">Ferramentas</option>
+                                    <option value="pintura">Pintura</option>
+                                    <option value="equipamentos">Equipamentos</option>
+                                    <option value="jardinagem">Jardinagem</option>
+                                </select>
                             </div>
 
                             <div>
                                 <p>Preço unitário</p>
-                                <input type="number" placeholder="Digite o preço" [(ngModel)]="produto.preco"/>
+                                <input type="number" placeholder="Digite o preço" [(ngModel)]="produto.preco" />
                             </div>
 
                             <div>
                                 <p>Url da Imagem</p>
-                                <input type="text" placeholder="Ex: ../images/imagemProduto" [(ngModel)]="produto.urlImg"/>
+                                <input type="text" placeholder="Ex: ../images/imagemProduto"
+                                    [(ngModel)]="produto.urlImg" />
                             </div>
 
                             <div>
                                 <p>Estoque</p>
-                                <input type="number" placeholder="Quantidade em estoque" [(ngModel)]="produto.estoque"/>
+                                <input type="number" placeholder="Quantidade em estoque"
+                                    [(ngModel)]="produto.estoque" />
                             </div>
                         </div>
                     </div>
 
                     <div class="desc-block">
                         <h3>Descrição técnica</h3>
-                        <input type="text" placeholder="Descreva o produto" [(ngModel)]="produto.descricao" maxlength="400"/>
+
+                        <textarea placeholder="Descreva o produto" [(ngModel)]="produto.descricao" maxlength="800">
+                        </textarea>
                     </div>
                 </div>
 
                 <div class="sidebar">
-                    <div class="send-image">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="24" viewBox="0 0 33 24" fill="none">
-                        <path d="M8.25 24C5.975 24 4.03125 23.2125 2.41875 21.6375C0.80625 20.0625 0 18.1375 0 15.8625C0 13.9125 0.5875 12.175 1.7625 10.65C2.9375 9.125 4.475 8.15 6.375 7.725C7 5.425 8.25 3.5625 10.125 2.1375C12 0.7125 14.125 0 16.5 0C19.425 0 21.9062 1.01875 23.9438 3.05625C25.9813 5.09375 27 7.575 27 10.5C28.725 10.7 30.1562 11.4437 31.2938 12.7312C32.4313 14.0188 33 15.525 33 17.25C33 19.125 32.3438 20.7188 31.0312 22.0312C29.7188 23.3438 28.125 24 26.25 24H18C17.175 24 16.4688 23.7062 15.8813 23.1187C15.2938 22.5312 15 21.825 15 21V13.275L12.6 15.6L10.5 13.5L16.5 7.5L22.5 13.5L20.4 15.6L18 13.275V21H26.25C27.3 21 28.1875 20.6375 28.9125 19.9125C29.6375 19.1875 30 18.3 30 17.25C30 16.2 29.6375 15.3125 28.9125 14.5875C28.1875 13.8625 27.3 13.5 26.25 13.5H24V10.5C24 8.425 23.2687 6.65625 21.8062 5.19375C20.3438 3.73125 18.575 3 16.5 3C14.425 3 12.6562 3.73125 11.1938 5.19375C9.73125 6.65625 9 8.425 9 10.5H8.25C6.8 10.5 5.5625 11.0125 4.5375 12.0375C3.5125 13.0625 3 14.3 3 15.75C3 17.2 3.5125 18.4375 4.5375 19.4625C5.5625 20.4875 6.8 21 8.25 21H12V24H8.25Z" fill="#FFB77D"/>
-                        </svg>
-                        <h2>Upload: jpg, png, svg da bibilioteca</h2>
-                    </div>
 
-                    <button (click) = "submeter()">
-                        <h3>Salvar Produto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#5D2F00"/>
-                        </svg></h3>
+                    <button (click)="submeter()">
+                        <h3>Salvar Produto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16" fill="none">
+                                <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
+                                    fill="#5D2F00" />
+                            </svg></h3>
                     </button>
                 </div>
             </div>

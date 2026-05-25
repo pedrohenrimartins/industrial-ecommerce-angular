@@ -304,7 +304,7 @@
     height: 280px;
     width: 250px;
     align-self: center;
-    
+    object-fit: contain;
 }
 
 .product-card p{
