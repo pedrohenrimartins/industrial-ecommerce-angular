@@ -43,7 +43,37 @@ export class CadastrarProduto implements OnInit {
   submeter() {
   console.log("produtoId no submeter:", this.produtoId);
   console.log("produto no submeter:", this.produto);
+  
+  // Verificações dos campos
+  if (!this.produto.nome?.trim()) {
+    alert('Preencha o nome do produto!');
+    return;
+  }
 
+  if (!this.produto.descricao?.trim()) {
+    alert('Preencha a descrição do produto!');
+    return;
+  }
+
+  if (!this.produto.preco || this.produto.preco <= 0) {
+    alert('Informe um preço válido!');
+    return;
+  }
+
+  if (!this.produto.urlImg?.trim()) {
+    alert('Informe a URL da imagem!');
+    return;
+  }
+
+  if (!this.produto.categoria?.trim()) {
+    alert('Informe a categoria!');
+    return;
+  }
+
+  if (!this.produto.estoque || this.produto.estoque < 0) {
+    alert('Informe a quantidade em estoque!');
+    return;
+  }
   if (this.produtoId) {
     this.service.editar(this.produto).subscribe(() => {
       this.router.navigate(['/inventario']);

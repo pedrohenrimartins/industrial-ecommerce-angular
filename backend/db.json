@@ -140,13 +140,11 @@
       "nome": "Latex Acrílica Tinta Coral Anti Mofo Branco 18L Coralar Branco Fosco",
       "categoria": "pintura",
       "preco": 233.9,
-      "estoque": 1000,
+      "estoque": 1100,
       "descricao": "A Tinta Acrílica Coralar é fácil de aplicar e rápida de secar, oferecendo ótima resistência e cobertura. É indicada exclusivamente para ambientes internos com superfícies de alvenaria, cerâmica não vitrificada e blocos de cimento.\nA Coral Coralar agora está com uma nova embalagem e nova fórmula. Com maior rendimento e cobertura em relação à fórmula anterior é de fácil aplicação, rápida secagem, mínimo respingamento e oferece bom acabamento e ação antimofo.",
       "id": "d8kLV-dimO0"
     }
   ],
-  "pessoas": [
-    
-  ],
+  "pessoas": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

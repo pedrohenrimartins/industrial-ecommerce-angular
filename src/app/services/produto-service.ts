@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ProdutoService {
-    private API:string = "http://127.0.0.1:3000/produtos"
+    private API:string = "http://localhost:3000/produtos"
     constructor(private http: HttpClient){ }
 
     listar(): Observable<Produto[]>{
