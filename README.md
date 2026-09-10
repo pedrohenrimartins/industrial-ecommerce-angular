@@ -1,59 +1,144 @@
-# Industrial
+# E-commerce Industrial — Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+Aplicação web de **e-commerce desenvolvida com Angular**, criada como projeto acadêmico para praticar desenvolvimento **Front-end, TypeScript, integração com API, componentes, formulários, autenticação e gerenciamento de carrinho**.
 
-## Development server
+## 🎯 Objetivo do Projeto
 
-To start a local development server, run:
+O objetivo foi desenvolver uma aplicação de comércio eletrônico capaz de apresentar produtos, organizar categorias e permitir que usuários realizem operações relacionadas à compra de produtos.
+
+O projeto também foi utilizado para praticar conceitos de **Angular, TypeScript, desenvolvimento de interfaces web e integração entre Front-end e API**.
+
+## 💡 Problema
+
+Um sistema de e-commerce precisa disponibilizar uma interface para navegação entre produtos, organização por categorias, autenticação de usuários e gerenciamento dos itens selecionados para compra.
+
+O desafio foi desenvolver essas funcionalidades utilizando uma arquitetura baseada em **componentes e serviços do Angular**, mantendo a comunicação entre as diferentes partes da aplicação organizada.
+
+## 🚀 Solução
+
+Foi desenvolvida uma aplicação web utilizando **Angular e TypeScript**, com componentes reutilizáveis, serviços para comunicação com a API, rotas para navegação e armazenamento local de informações do usuário e do carrinho.
+
+A aplicação também utiliza um backend baseado em **JSON Server** para disponibilizar os dados utilizados pelo Front-end.
+
+## ⚙️ Funcionalidades
+
+* Página inicial
+* Catálogo de produtos
+* Organização de produtos por categorias
+* Categorias de:
+
+  * Ferramentas
+  * Pintura
+  * Equipamentos
+  * Jardinagem
+* Cadastro e login de usuários
+* Gerenciamento de sessão utilizando `localStorage`
+* Carrinho de compras
+* Adição de produtos ao carrinho
+* Alteração da quantidade de produtos
+* Remoção/controle de produtos do carrinho
+* Componentes administrativos
+* Formulários
+* Navegação utilizando rotas do Angular
+* Comunicação com API utilizando `HttpClient`
+
+## 🧩 Arquitetura e Conceitos
+
+O projeto utiliza recursos do Angular para organizar a aplicação em diferentes componentes e serviços.
+
+Entre os conceitos praticados estão:
+
+* Componentes Angular
+* Services
+* Injeção de dependência
+* Routing
+* Forms
+* `HttpClient`
+* TypeScript
+* HTML
+* CSS
+* `localStorage`
+* Integração Front-end/API
+* Organização modular
+
+## 🛠️ Tecnologias
+
+* **Angular**
+* **TypeScript**
+* **JavaScript**
+* HTML5
+* CSS3
+* JSON Server
+* Git
+* GitHub
+
+## 📁 Estrutura
+
+```text
+industrial/
+├── backend/
+├── public/
+├── src/
+├── angular.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
+```
+
+## ▶️ Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/pedrohenrimartins/industrial.git
+```
+
+Entre na pasta:
+
+```bash
+cd industrial
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o backend/JSON Server conforme a configuração do projeto.
+
+Em outro terminal, execute o Angular:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois acesse:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📌 Competências Demonstradas
 
-```bash
-ng generate --help
-```
+Este projeto demonstra conhecimentos em:
 
-## Building
+* Desenvolvimento Front-end
+* Angular
+* TypeScript
+* JavaScript
+* Componentização
+* APIs
+* HTTP / HttpClient
+* Formulários
+* Routing
+* Autenticação
+* `localStorage`
+* E-commerce
+* Git e GitHub
+* Integração entre Front-end e backend
 
-To build the project run:
+## 📌 Status
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Projeto acadêmico desenvolvido para prática de **desenvolvimento web com Angular e TypeScript**, com possibilidade de evolução e implementação de novas funcionalidades.
